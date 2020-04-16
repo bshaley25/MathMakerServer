@@ -9,7 +9,7 @@ module.exports = {
 
   production: {
     client: 'pg',
-    connection: 'postgresql://localhost/mathmaker',
+    connection: process.env.DATABASE_URL
   }
 
 };
